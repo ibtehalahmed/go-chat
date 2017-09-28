@@ -17,6 +17,7 @@ type Client struct {
     socket *websocket.Conn
     send   chan []byte
 }
+
  
 type Message struct {
     Sender    string `json:"sender,omitempty"`
